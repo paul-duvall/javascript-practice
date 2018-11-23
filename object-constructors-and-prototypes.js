@@ -15,7 +15,7 @@ Tree.prototype.printCharacteristics = function() {
 };
 
 // The Plant object constructor
-function Plant(name, characteristics, habitat, fruit){
+function Plant(name, characteristics, habitats, fruit){
   this.name = name;
   this.characteristics = characteristics;
   this.habitats = habitats;
@@ -30,7 +30,7 @@ let horseChesnut = new Tree('Horse Chesnut', ['spectacular spring flowers', 'goo
 // console.log(horseChesnut);
 
 // Use the printCharacteristics method for the oak object
-// console.log(oak.printCharacteristics());
+console.log(oak.printCharacteristics());
 
 
 /* **************************************** */

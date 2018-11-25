@@ -9,3 +9,7 @@ This project uses callback functions to ensure that requests happen asynchronous
 ### Custom HTTP Library 2
 
 Also created using Modern Javascript from the Beginning, this alternative version is created using the fetch API, promises and arrow functions.
+
+### Github user search app
+
+Created using Modern Javascript from the Beginning, this app pulls in data from the Github user API in order to populate single user search results that dynamically update with each keyup event. Data is pulled in using async / await and fetch. Content is generated using a template literal.

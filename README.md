@@ -13,3 +13,5 @@ Also created using Modern Javascript from the Beginning, this alternative versio
 ### Github user search app
 
 Created using Modern Javascript from the Beginning, this app pulls in data from the Github user API in order to populate single user search results that dynamically update with each keyup event. Data is pulled in using async / await and fetch. Content is generated using a template literal.
+
+![Github user search app image](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-github-search.GIF)

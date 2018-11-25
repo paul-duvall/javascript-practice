@@ -30,4 +30,42 @@ class UI {
       <div id="repos"></div>
     `;
   }
+
+  // Show alert message if there is no user profile associated with input
+  showAlert(message, className) {
+    // Clear any currently displayed alert
+    this.clearAlert();
+    // Create div to contain alert
+    const div = document.createElement('div');
+    // Add classes to the div
+    div.className = className;
+    // Add text to the div
+    div.appendChild(document.createTextNode(message));
+    // Get the parent element to insert div
+    const container = document.querySelector('.searchContainer');
+    // Get the search box
+    const search = document.querySelector('.search');
+    // Insert the alert
+    container.insertBefore(div, search);
+
+    // Timeout after 3 seconds
+    setTimeout(() => {
+      this.clearAlert();
+    }, 3000);
+  }
+
+  // Clear alert message
+  clearAlert() {
+    const currentAlert = document.querySelector('.alert');
+
+    if(currentAlert){
+      currentAlert.remove();
+    }
+  }
+
+  // Clear profile once user has deleted text from input
+  clearProfile() {
+    this.profile.innerHTML = '';
+  }
+
 }

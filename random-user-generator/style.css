@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header {
+  text-align: center;
+  width: 80vw;
+  /* border: 2px solid green; */
+}
+
+#authors {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  justify-content: center;
+}
+
+.authorContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  width: 50%;
+  min-width: 350px;
+  height: 300px;
+  background: whitesmoke;
+  box-shadow: 0 0 20px rgb(90, 90, 90);
+  border-radius: 4px;
+}
+
+.authorText {
+  width: 80%;
+}
+
+img {
+  border-radius: 50%;
+}

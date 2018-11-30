@@ -19,21 +19,31 @@ fetch(url)
     console.log(authors);
     return authors.map(function(author) {
       let div = createNode('div'),
-          span = createNode('span'),
-          name = author.name.first.toUpperCase() + " " + author.name.last.toUpperCase();
-      span.innerHTML = 
+          firstName = author.name.first.toUpperCase(),
+          lastName = author.name.last.toUpperCase();
+      div.innerHTML = 
       `
       <div class="authorContainer">
-        
-        <div><img src="${author.picture.large}"> </div>
-        <div>${name}</div>
-        <div><strong>Age:</strong> ${author.dob.age}</div>
-        <div><strong>Gender:</strong> ${author.gender}</div>
-        <div class="authorText">Hello hello hello hello hello hello hello hello hello</div>
-
+        <div class="leftAuthorColumn">
+          <div><img src="${author.picture.large}"> </div>
+          <div class="authorName">
+            <div>${firstName}</div>
+            <div>${lastName}</div>
+          </div>
+          <div><strong>Age:</strong> ${author.dob.age}</div>
+          <div><strong>Gender:</strong> ${author.gender}</div>
+        </div>
+        <div class="rightAuthorColumn">
+          <div class="authorText">Meet this person. They are great. Once, they built this website and everyone was incredibly impressed. Really, it blew the collective minds of all the people who saw it. If you saw it, you'd love it immediately.</div>
+          <span class="icons">
+          <a href="#"><i class="fas fa-envelope-square"></i></a>
+          <a href="#"><i class="fas fa-phone-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </span>
+        </div>
       </div>
       `;
-      append(div, span);
       append(parentDiv, div);
 
     })

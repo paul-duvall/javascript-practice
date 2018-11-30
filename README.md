@@ -15,3 +15,11 @@ Also created using Modern Javascript from the Beginning, this alternative versio
 Created using Modern Javascript from the Beginning, this app pulls in data from the Github user API in order to populate single user search results that dynamically update with each keyup event. Data is pulled in using async / await and fetch. Content is generated using a template literal.
 
 ![Github user search app image](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-github-search.GIF)
+
+### Random user generator
+
+Created primarily as practice of using fetch API, this project uses the randomuser.me API. For the Javascript layout, a tutorial article was used initially (this proved beneficial for a couple of reasons, in particular I liked how the writer used variables to store code that would be used repeatedly and to streamline the functions and make them more readable). 
+
+This basic structure was heavily edited in order to add more detail to be displayed for each 'author', allowing me to practice using data sourced from an API. The CSS and HTML structure was all put in place independently.
+
+[Click here](https://codepen.io/duvallpj/full/eQPMMp/) to see the final product.

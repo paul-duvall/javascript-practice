@@ -1,25 +1,29 @@
-## javascript-practice
+# javascript-practice
 
-### Custom HTTP Library
+## Custom HTTP Library
 
 This project was created using the Modern Javascript from the Beginning course. It is a simple custom AJAX library with works with the JSONPlaceholder REST API. This API is designed to practice these skills allows for GET, POST, PUT and DELETE requests.
 
 This project uses callback functions to ensure that requests happen asynchronously.
 
-### Custom HTTP Library 2
+## Custom HTTP Library 2
 
 Also created using Modern Javascript from the Beginning, this alternative version is created using the fetch API, promises and arrow functions.
 
-### Github user search app
+## Github user search app
 
 Created using Modern Javascript from the Beginning, this app pulls in data from the Github user API in order to populate single user search results that dynamically update with each keyup event. Data is pulled in using async / await and fetch. Content is generated using a template literal.
 
 ![Github user search app image](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-github-search.GIF)
 
-### Random user generator
+## Random user generator
 
 Created primarily as practice of using fetch API, this project uses the randomuser.me API. For the Javascript layout, a tutorial article was used initially (this proved beneficial for a couple of reasons, in particular I liked how the writer used variables to store code that would be used repeatedly and to streamline the functions and make them more readable). 
 
 This basic structure was heavily edited in order to add more detail to be displayed for each 'author', allowing me to practice using data sourced from an API. The CSS and HTML structure was all put in place independently.
 
 [Click here](https://codepen.io/duvallpj/full/eQPMMp/) to see the final product.
+
+## Fetch API Practice
+
+A little demo project completed in order to further reinforce understanding of Fetch API, completed using a tutorial from Traversy Media. Also used Bootstap for some quick and simple styling - a nice reminder of this technology, which I hadn't used for a while. I love how easy it is to quickly add in margin without writing any CSS

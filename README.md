@@ -27,3 +27,9 @@ This basic structure was heavily edited in order to add more detail to be displa
 ## Fetch API Practice
 
 A little demo project completed in order to further reinforce understanding of Fetch API, completed using a tutorial from Traversy Media. Also used Bootstap for some quick and simple styling - a nice reminder of this technology, which I hadn't used for a while. I love how easy it is to quickly add in margin without writing any CSS
+
+## Form validation using regular expressions
+
+Some much-needed additional practice using regular expressions in a practical context - validating user information entered into a form. Uses classList.add and .remove to apply bootstrap styles to show user alerts when they enter invalid responses.
+
+![Form validation using regular expressions](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-regex-form.gif)

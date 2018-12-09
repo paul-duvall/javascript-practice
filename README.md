@@ -33,3 +33,9 @@ A little demo project completed in order to further reinforce understanding of F
 Some much-needed additional practice using regular expressions in a practical context - validating user information entered into a form. Uses classList.add and .remove to apply bootstrap styles to show user alerts when they enter invalid responses.
 
 ![Form validation using regular expressions](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-regex-form.gif)
+
+## Profile scroller
+
+Built to practice using Javascript iterators using Javascript from the beginning. Generators user profiles using an array of objects, iterating through using an iterator. Loads the initial profile on load and resets once the end of the array has been reached.
+
+![Profile scroller](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-profile-scroller.jpg)

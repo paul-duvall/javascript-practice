@@ -39,3 +39,11 @@ Some much-needed additional practice using regular expressions in a practical co
 Built to practice using Javascript iterators using Javascript from the beginning. Generators user profiles using an array of objects, iterating through using an iterator. Loads the initial profile on load and resets once the end of the array has been reached.
 
 ![Profile scroller](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-profile-scroller.jpg)
+
+## Tracalorie calorie counter
+
+Built using Javascript From the Beginning, the Tracalorie app represents a step up in complexity of applications created and the culmination of the the Javascript from the beginning course (it is the penultimate project in the course).
+
+This meal and calorie tracker uses the Javascript Module pattern, one of several patterns that have been introduced in this course. Local storage will be used to persist the data after page reload / closing browser. The Javascript is split into several module controllers - local storage, item, UI, main app.
+
+For the styling, this project uses Bootstap as well as Font Awesome.

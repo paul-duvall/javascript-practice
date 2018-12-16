@@ -47,3 +47,7 @@ Built using Javascript From the Beginning, the Tracalorie app represents a step 
 This meal and calorie tracker uses the Javascript Module pattern, one of several patterns that have been introduced in this course. Local storage will be used to persist the data after page reload / closing browser. The Javascript is split into several module controllers - local storage, item, UI, main app.
 
 For the styling, this project uses Bootstap as well as Font Awesome.
+
+## Microposts
+
+![Microposts project](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-microposts.jpg)

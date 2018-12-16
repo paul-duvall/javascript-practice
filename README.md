@@ -50,4 +50,6 @@ For the styling, this project uses Bootstap as well as Font Awesome.
 
 ## Microposts
 
+The final project from the Javascript from the beginning course, Microposts is a simple blogging platform that uses JSON Server to replicate a back-end for data storage. The project is structured using modules so also provided an introduction for Babel and Webpack. The settings for these technologies were provided pre-set. Microposts uses Fetch API to get posts, as well as updating and deleting posts.
+
 ![Microposts project](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-microposts.jpg)

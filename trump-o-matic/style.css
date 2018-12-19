@@ -1,0 +1,28 @@
+header {
+  margin-top: 100px;
+}
+
+header, section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+form {
+  display: inline;
+}
+
+input {
+  text-align: center;
+}
+
+.trumpWords {
+  border: 1.2px solid #bbb;
+  border-radius: 4px;
+  margin: 30px;
+  padding: 30px;
+}

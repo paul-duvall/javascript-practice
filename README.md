@@ -47,3 +47,9 @@ Built using Javascript From the Beginning, the Tracalorie app represents a step 
 This meal and calorie tracker uses the Javascript Module pattern, one of several patterns that have been introduced in this course. Local storage will be used to persist the data after page reload / closing browser. The Javascript is split into several module controllers - local storage, item, UI, main app.
 
 For the styling, this project uses Bootstap as well as Font Awesome.
+
+## Microposts
+
+The final project from the Javascript from the beginning course, Microposts is a simple blogging platform that uses JSON Server to replicate a back-end for data storage. The project is structured using modules so also provided an introduction for Babel and Webpack. The settings for these technologies were provided pre-set. Microposts uses Fetch API to get posts, as well as updating and deleting posts.
+
+![Microposts project](https://raw.githubusercontent.com/paul-duvall/website_images/master/project-image-microposts.jpg)
